@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyWallet.Api.ResourceModels\MyWallet.Api.ResourceModels.csproj" />
+    <ProjectReference Include="..\MyWallet.Api.Services\MyWallet.Api.Services.csproj" />
+  </ItemGroup>
+
 </Project>

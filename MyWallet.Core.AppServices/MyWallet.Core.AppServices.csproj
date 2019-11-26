@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyWallet.Core.DataAccess\MyWallet.Core.DataAccess.csproj" />
+    <ProjectReference Include="..\MyWallet.Core\MyWallet.Core.csproj" />
+    <ProjectReference Include="..\MyWallet.DomainModels\MyWallet.DomainModels.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyWallet.Api.ResourceModels\MyWallet.Api.ResourceModels.csproj" />
+    <ProjectReference Include="..\MyWallet.Core.AppServices\MyWallet.Core.AppServices.csproj" />
+    <ProjectReference Include="..\MyWallet.Core\MyWallet.Core.csproj" />
+  </ItemGroup>
+
+</Project>
